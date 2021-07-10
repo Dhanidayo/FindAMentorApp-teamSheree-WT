@@ -1,0 +1,47 @@
+/*
+    This stylesheet was created for the index.jsx located inside of the /pages/home
+    This is a scoped stylesheet and should only be imported within the index.jsx located in /pages/home
+*/
+
+/* Change any style here to match your design for your home page*/
+
+/* ========STYLING MENTOR PREVIEW LAYOUT========= */
+
+/* #CED8E1, #1CC8A0, #102B3E */
+
+
+.heading-text {
+	padding: 25px;
+	text-align: center;
+	background-color: #102B3E;
+
+}
+
+.heading-text h1 {
+	font-size: 40px;
+	color: #1CC8A0;
+
+}
+
+.top-hr{
+	height:1px;
+}
+
+.heading-text .first-para {
+	font-size: 22px;
+	color: #CED8E1;
+}
+
+
+.mentor-list {
+	gap: 1rem;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color:#102B3E ;
+	}

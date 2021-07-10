@@ -1,0 +1,238 @@
+/* #CED8E1, #1CC8A0, #102B3E */
+
+
+.show-mentor {
+    background-color:#CED8E1;
+    width: 100%;
+    height: 200vh;
+}
+
+/* .blue-div {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(3, 3, 54);
+} */
+
+.banner-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.mentor-image {
+    position: relative;
+    margin: -200px auto 0;
+    width:400px;
+    overflow: hidden;
+    border: 6px solid #102B3E;
+    border-radius: 0.5rem;
+}
+
+.mentor-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:0;
+}
+
+.mentor-name {
+    text-align: center;
+    padding: 30px;
+    color:#102B3E;
+}
+
+.experience-para {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+    font-weight: 500;
+    color: #102B3E;
+}
+
+.SM-Link {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #CED8E1;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover {
+    opacity: 0.9;
+}
+
+.small-boxes ul {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-boxes ul li {
+    padding: 10px;
+    list-style-type: none;
+    margin: -10px 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #102B3E;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 3px 3px #999;
+}
+
+.small-boxes ul li:last-child {
+    background-color: #102B3E;
+}
+
+.small-boxes ul li:last-child span {
+    color: #1CC8A0;
+}
+
+.small-boxes ul li:last-child:hover {
+    opacity: 0.9;
+}
+
+.small-boxes ul li:first-child {
+    font-weight: 1000;
+}
+
+.inline-headlist ul {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.inline-headlist ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 20px;
+    color: #102B3E;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.list-span:hover {
+    color: #1CC8A0;
+}
+
+section {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about, .reviews, .session {
+    margin: 15px;
+    text-align: left;
+}
+
+#about-heading, #contact {
+    text-align: center;
+    padding: 10px;
+    color:#102B3E;
+}
+
+#about-info {
+    margin-left: 300px;
+    color:#102B3E;
+}
+
+.reviews p, .session p {
+    color:rgb(179, 43, 66);
+}
+
+.session {
+    text-align: center;
+}
+
+.session h2 , .reviews h2{
+    color:#102B3E;
+}
+
+.Profile-hr {
+    margin-top: 20px;
+    background-color:#102B3E;
+    
+}
+
+.date {
+    display: inline-block;
+    margin-left: 1200px;
+}
+
+@media only screen and (max-width:760px) {
+    .mentor-image {
+        width: 240px;
+    }
+    
+    .mentor-name {
+        font-size: 28px;
+    }
+    
+    .experience-para, #contact {
+        font-size: 16px;
+    }
+
+    section {
+        width: 100%;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    /* .about {
+        display: flex;
+    } */
+
+    #about-heading {
+        font-size: 22px;
+        padding: 5px;
+    }
+
+    #about-info {
+        width: 100%;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    #about-info li {
+        font-size: 16px;
+    }
+
+    .about, .reviews, .session {
+        margin: 8px;
+        text-align: center;
+    }
+
+    .date {
+        margin-left: 240px;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width: 761px) {
+    .mentor-image {
+        width: 300px;
+    }
+
+    #about-info {
+        width: 100%;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .date {
+        margin-left: 820px;
+    }
+}
